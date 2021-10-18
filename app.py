@@ -3,6 +3,9 @@ from flask import render_template
 from flask import request
 from run import system
 from model import detect
+from os import chdir
+
+chdir('/home/ia1/cv/prueba api/')
 
 app= Flask(__name__,template_folder='template')
 
